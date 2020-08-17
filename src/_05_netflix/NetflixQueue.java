@@ -39,5 +39,8 @@ public class NetflixQueue {
 			System.out.println(movie);
 		}
 	}
-
+	public void PrintBestMovie() {
+		
+		System.out.println("The Best movie is "+movies);
+	}
 }

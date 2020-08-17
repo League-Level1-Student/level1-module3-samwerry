@@ -38,10 +38,9 @@ public class Jukebox implements Runnable {
 		 * that was selected.
 		 */
     }
-    JOptionPane.showmess
     
 	/* Use this method to add album covers to your Panel. */
-	/*private JLabel loadImage(String fileName) {
+       private JLabel loadImage(String fileName) {
 		URL imageURL = getClass().getResource(fileName);
 		Icon icon = new ImageIcon(imageURL);
 		return new JLabel(icon);
@@ -66,7 +65,7 @@ class Song {
 	 * 		new	Song("http://freedownloads.last.fm/download/569264057/Get%2BGot.mp3"); 
 	 * </code>
 	 */
-/**	public Song(String songAddress) {
+	public Song(String songAddress) {
 		this.songAddress = songAddress;
 	}
 
@@ -133,4 +132,4 @@ class Song {
 		}
 	}
 }
-/
+
