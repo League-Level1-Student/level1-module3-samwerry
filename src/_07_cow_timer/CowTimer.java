@@ -23,7 +23,11 @@ public class CowTimer {
 		this.minutes = minutes;
 		System.out.println("Cow time set to " + minutes + " minutes.");
 	}
-
+ public void endTimer() {
+	 if(minutes==0) {
+		 System.out.println("MOOOOOOOOOOOOOOOOOOOOOOOOOOOO!!");
+	 }
+ }
 	public void start() throws InterruptedException {
 		/*
 		 * 2. Count down the minutes, print the current minute then sleep for the number

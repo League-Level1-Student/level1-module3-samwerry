@@ -7,8 +7,11 @@ public class CowTimerRunner {
 		 * Use a short delay (seconds) when testing, then try with longer delays */
 CowTimer time = new CowTimer();
 time.start();
-time.setTime(1);
-
+for(int i = 30; i>-1;i--) {
+	time.setTime(i);
+	Thread.sleep(500);
+}
+time.endTimer();
 	}
 
 }
